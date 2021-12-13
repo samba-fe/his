@@ -1,0 +1,262 @@
+.container-fluid {
+  padding: 0;
+  overflow-x: hidden;
+  min-height: 100vh;
+}
+.header {
+  background-color: #F8F8F8;
+  height: 56px;
+  padding: 10px 0;
+}
+.header-right {
+  text-align: right;
+  padding-right: 55px;
+}
+.header-right .healthcare-logo {
+  display: inline-block;
+  padding: 0 15px 15px 15px;
+}
+.header-right .notifications-logo {
+  display: inline-block;
+  padding: 0 15px 15px 15px;
+}
+.header-right .avatar-logo {
+  display: inline-block;
+  padding: 0 10px 15px 15px;
+}
+.header-right .arrow-down-logo {
+  display: inline-block;
+  padding: 0 15px 15px 0;
+}
+.logo {
+  text-align: left;
+  margin-left: 25px;
+}
+.header-section .breadcrumb{
+  margin: 0 30px;
+  font-size: 12px;
+}
+.header-section .page-header{
+  margin: 0 50px 40px 50px;
+  text-align: left;
+  font-size: 20px;
+  font-weight: bold;
+}
+.header .dropdowns {
+  text-align: left;
+  padding-left: 0;
+}
+.header .dropdowns div {
+  display: inline;
+  margin: 0 5px;
+  text-align: left;
+}
+.dropdown-item {
+  background: #EFEFEF !important;
+  color: #000000 !important;
+  margin: 0.4rem 0.5rem;
+  width: auto;
+}
+.btn-secondary {
+  background-color: #F8F8F8;
+  border-color: #F8F8F8;
+  color: #000000;
+  font-size: 14px;
+}
+.content {
+  margin: 10px 50px;
+}
+.calendar {
+  background: #E7F5FF;
+  width: 42%;
+  height: 49px;
+  text-align: left;
+  padding: 10px;
+  margin: 0 0 20px 0;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.calendar .icon {
+  position: relative;
+  left: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  display: inline-block;
+}
+.calendar .text {
+  position: relative;
+  left: 20px;
+  top: 2px;
+  font-size: 14px;
+  font-weight: bold;
+  display: inline-block;
+}
+.plain-sections {
+  text-align: left;
+  margin: 10px;
+}
+.card-section {
+  text-align: left;
+  display: inline-block;
+  width: 30%;
+}
+.card-section .text {
+  font-size: 12px;
+}
+.card-section .amount {
+  font-size: 20px;
+  font-weight: bold;
+}
+.cards .card {
+  background: #F8F8F8;
+  border: none;
+  border-radius: 4px;
+  margin: 10px 0;
+  text-align: left;
+}
+.cards .card .card-title {
+  font-size: 12px;
+  text-align: left;
+}
+.cards .card .card-arrow {
+  text-align: left;
+  position: relative;
+  bottom: 5px;
+  cursor: pointer;
+}
+.cards .card .card-text {
+  font-size: 12px;
+}
+.cards .card .card-count {
+  display: inline-block;
+  font-size: 20px;
+  font-weight: bold;
+}
+.cards .card .card-revenue {
+  display: inline-block;
+  font-size: 14px;
+}
+.top-header {
+  margin-top: 10px;
+}
+.right-sync {
+  background: #F8F8F8;
+  text-align: left;
+  position: relative;
+  left: 60px;
+  width: 65%;
+  height: 50px;
+  padding: 0 10px;
+}
+.right-sync .text {
+  color: #2E3748;
+  font-size: 12px;
+}
+.right-sync .date {
+  color: #2E3748;
+  font-weight: bold;
+  font-size: 12px;
+}
+.accordian-section {
+  padding: 0;
+  margin: 0;
+}
+.accordian-section .accordion-item{
+  padding: 0 35px;
+  background: #F5F5F5;
+  border: none;
+  margin-bottom: 20px;
+}
+.accordian-section .accordion-button {
+  background: #F5F5F5;
+}
+.accordion-button:not(.collapsed) {
+  box-shadow: none;
+  color: #000000;
+}
+.accordian-section .acc-title-section {
+  width: 25%;
+}
+.accordian-section .acc-title-section .acc-title {
+  font-size: 20px;
+  font-weight: bold;
+  height: 25px;
+}
+.accordian-section .acc-title-section .acc-sub-title {
+  font-size: 14px;
+}
+.accordian-section .acc-stats-section .acc-stat {
+  display: inline-block;
+  margin: 0 20px;
+}
+.accordian-section .acc-stats-section .acc-stat .acc-stat-title {
+  font-size: 12px;
+  line-height: 25px;
+}
+.accordian-section .acc-stats-section .acc-stat .acc-stat-count {
+  font-size: 16px;
+  font-weight: bold;
+}
+.accordian-section .card {
+  background: #F8F8F8  0% 0% no-repeat padding-box;
+  box-shadow: 0 0 2px #CECDCD;
+  border: none;
+  border-radius: 4px;
+  margin: 10px 0;
+  text-align: left;
+  height: 165px;
+}
+.accordian-section .card-head {
+  font-size: 14px;
+}
+.accordian-section .card-text {
+  font-size: 12px;
+}
+.accordian-section .card .card-title {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: left;
+  height: 40px;
+}
+.accordian-section .card-type {
+  font-size: 12px;
+  color: #066ED2;
+  font-weight: 600;
+  height: 25px;
+}
+.accordian-section .card-revenue {
+  font-size: 16px;
+  font-weight: bold;
+}
+.accordian-section .card-count {
+  font-size: 16px;
+  font-weight: bold;
+}
+.accordian-jump {
+  background: #F8F8F8;
+  height: 48px;
+  margin: 10px 50px;
+  padding: 10px;
+  text-align: left;
+}
+.accordian-jump .jump-text {
+  font-size: 18px;
+  color: #000000;
+}
+.jump-dropdown-section {
+  text-align: right;
+  margin: 0 10px;
+}
+.jump-dropdown-text {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0 10px;
+  display: inline-block;
+}
+.jump-dropdown {
+  display: inline-block;
+}
+#dropdown-accordian-section {
+  font-size: 14px !important;
+  font-weight: bold !important;
+}
